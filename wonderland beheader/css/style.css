@@ -13,11 +13,11 @@ body{
 }
 /*INTERAÇÃO COM O MENU DO SITE*/
 nav.menu-lateral{
-    width: 10.9px;  /*210px = aberto 60px = fechado*/
+    width: 10px;  /*210px = aberto 60px = fechado*/
     height: 100%;
-    background-color: rgba(52, 163, 0, 0.548);
+    background-color: rgba(8, 37, 65, 0.548);
     padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 rgb(16, 80, 0);
+    box-shadow: 3px 0 0 rgb(0, 83, 131);
 
     position: fixed;
     top: 0;
@@ -30,17 +30,6 @@ nav.menu-lateral:hover{ /*efeito que mostra o menu inteiro*/
     width: 180px;
 }
 
-.btn-expandir{
-    width: 100%;
-    padding-left: 10px;
-}
-
-.btn-expandir > i{
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 ul{
     height: 50%;
     list-style-type: none;
@@ -51,7 +40,7 @@ ul li.item-menu{
 
 
 ul li.item-menu:hover{
-    background: rgb(83, 118, 0);
+    background: rgb(0, 100, 118);
 }
 
 ul li.item-menu a{
@@ -76,29 +65,37 @@ ul li.item-menu a .icon{
 
 h2{
     background-color: red;
-    margin-left: 540px;
-    margin-top: 50px;
+    margin-left: 480px;
+    margin-top: 0px;
     position: absolute;
     display: flex;
     justify-content: center;
     font-family: "Bodoni Moda SC", system-ui;
    
 }
-p{
-   margin-left: 150px;
-   margin-top: 150px;
+.sobre-jogo p{
+   margin-left: 400px;
+   margin-top: 180px;
     /*define o tamanho da margem*/
-   padding: 60px;
+   padding: 30px;
    width: 500px;
-   background-color: rgba(233, 145, 14, 0.5);
-   border: 2px rgba(255, 251, 30, 0.986);
+   background-color: rgba(8, 37, 65, 0.548);
    border-radius: 20px;
-   font-size: 20px
+   font-size: 15px
 }
 
+.historia{
+    margin-left: 400px;
+     /*define o tamanho da margem*/
+    padding: 30px;
+    width: 500px;
+    background-color: rgba(8, 37, 65, 0.548);
+    border-radius: 20px;
+    font-size: 15px
+}
 .icone img{
-  margin-left: 460px;
-  margin-bottom: 20px;
+  margin-left: 443px;
+  width: 230px;
   position: absolute;
 }
 .intro{
@@ -115,11 +112,16 @@ p{
     margin-top: 280px; 
 }
 .sobre-jogo{
+    align-items: center;
     display: flex;
-    justify-content: baseline;
-    
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1px 1fr; /* Defina a largura da imagem e do texto */
+    grid-gap: 5px; /* Espaçamento entre a imagem e o texto */
 }
-.sobre-jogo .txt1 .txt2{
-    margin-right: 100px;
-    font-size: 30px;
+.sobre-jogo img{
+    position: absolute;
+    width: 530px;
+    margin-left: 290px;
+    
 }
