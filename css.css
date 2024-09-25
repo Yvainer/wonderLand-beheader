@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    background-image: url('image/cavernaMenu\ 2.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.container{
+    display: flex;
+    justify-content: cemter;
+}
+.bianca img{
+    width: 300px;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+}
+.beatriz img{
+    width: 300px;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+
