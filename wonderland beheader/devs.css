@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,7 @@ nav.menu-lateral {
     background-color: rgba(65, 8, 56, 0.548);
     padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 rgb(109, 0, 131);
+    font-family: "Dancing Script", cursive;
  
     position: fixed;
     top: 0;
@@ -30,7 +33,7 @@ nav.menu-lateral {
  
 nav.menu-lateral:hover {
     /*efeito que mostra o menu inteiro*/
-    width: 200px;
+    width: 130px;
 }
  
 ul {
@@ -50,7 +53,7 @@ ul li.item-menu:hover {
 ul li.item-menu a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 19px;
     padding: 20px 4%;
     display: flex;
     margin-bottom: 20px;
@@ -79,14 +82,18 @@ img {
 }
  
 .estilo {
+    
     background-color: rgba(44, 8, 65, 0.548);
     border-radius: 10px;
     padding: 50px;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
 }
  
 h3 {
     display: flex;
     justify-content: center;
+ 
 }
  
 .max-img {
@@ -97,5 +104,8 @@ h3 {
 html,
 body {
     overflow-x: hidden;
+}
+h1{
+    font-family: "Dancing Script", cursive;
 }
  
