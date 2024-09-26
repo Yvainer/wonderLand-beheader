@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    background: url(image/cavernaMenu.png);
+   
+}
+.container{
+    font-family: "Dancing Script", cursive;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    margin-left: 230px;
+}
+
+/*INTERAÇÃO COM O MENU DO SITE*/
+nav.menu-lateral{
+    width: 10px;  /*210px = aberto 60px = fechado*/
+    height: 100%;
+    background-color: rgba(8, 37, 65, 0.548);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(0, 83, 131);
+    font-family: "Dancing Script", cursive;
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.row-senac{
+    margin-right: 180px;
+}
+ 
+nav.menu-lateral:hover{ /*efeito que mostra o menu inteiro*/
+    width: 155px;
+}
+ 
+ul{
+    height: 50%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: 1s
+}
+ 
+ 
+ul li.item-menu:hover{
+    background: rgb(0, 100, 118);
+}
+ 
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ 
+ul li.item-menu a .txt-link{
+    margin-left: 20px;
+ 
+}
+ul li.item-menu a .icon{
+    font-size: 30px;
+}
+ 
+.card{
+    background-color: rgba(8, 37, 65, 0.548);
+    border: rgb(0, 83, 131) solid 5px;
+}
+ 
+.image-text img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+ 
+ 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 330px;
+    margin-left: 80px;
+
+   
+}
+ 
+.card:hover {
+    transform: scale(1.05); /* Aumenta o card em 5% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra ao card */
+}
+ 
+html, body {
+    overflow-x: hidden;
+  }

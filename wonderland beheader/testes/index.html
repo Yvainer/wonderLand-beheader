@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Hover com Degradê</title>
+    <style>
+        /* Container para organizar as imagens */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        /* Estilos para as imagens */
+        .image-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            transition: 0.4s ease-in-out;
+        }
+
+        /* Criar o efeito de degradê ao passar o mouse */
+        .image-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(255,0,150,0.6), rgba(0,204,255,0.6));
+            opacity: 0;
+            transition: opacity 0.4s ease-in-out;
+        }
+
+        /* Efeito hover */
+        .image-container:hover img {
+            transform: scale(1.1);
+        }
+
+        .image-container:hover::before {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,28 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-   
+    font-family: "Bodoni Moda SC", system-ui;
 }
 body{
-    padding: 50px;
     height: 100vh;
-    margin: 0px;
-    background-color: rgba(8, 37, 65, 0.548)  ;
+    background-color: #222;
     color: #fff
 }
 /*INTERAÇÃO COM O MENU DO SITE*/
 nav.menu-lateral{
-    width: 10px;  /*210px = aberto 10px = fechado*/
+    width: 10px;  /*210px = aberto 60px = fechado*/
     height: 100%;
     background-color: rgba(8, 37, 65, 0.548);
-    padding: 30px 0 40px 1%;
+    padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 rgb(0, 83, 131);
-    font-family: "Dancing Script", cursive;
-
     position: fixed;
+
     top: 0;
     left: 0;
     overflow: hidden;
@@ -30,7 +27,7 @@ nav.menu-lateral{
 }
 
 nav.menu-lateral:hover{ /*efeito que mostra o menu inteiro*/
-    width: 155px;
+    width: 180px;
 }
 
 ul{
@@ -49,7 +46,7 @@ ul li.item-menu:hover{
 ul li.item-menu a{
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     padding: 20px 4%;
     display: flex;
     margin-bottom: 20px;
@@ -64,36 +61,46 @@ ul li.item-menu a .icon{
     font-size: 30px;
 }
 
-
 /*EDIÇÃO DAS INFORMAÇÕES DO SITE */
+
+h2{
+    background-color: red;
+    margin-left: 580px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: "Bodoni Moda SC", system-ui;
+   
+}
 .sobre-jogo p{
    margin-left: 400px;
-   margin-top: 30px;
+   margin-top: 180px;
     /*define o tamanho da margem*/
-   padding: 50px;
+   padding: 30px;
    width: 500px;
    background-color: rgba(8, 37, 65, 0.548);
    border-radius: 20px;
-   font-size: 19px;
-   font-family: "Dancing Script", cursive;
+   font-size: 15px
 }
-
-
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-.container2{
+.alice img{
+    width: 630px;
     margin-left: 230px;
 }
-
-.titulo-jogo img{
-    width: 600px;
-    margin-left: 300px;
+.historia{
+    margin-left: 400px;
+     /*define o tamanho da margem*/
+    padding: 30px;
+    width: 500px;
+    background-color: rgba(8, 37, 65, 0.548);
+    border-radius: 20px;
+    font-size: 15px
 }
-
-
+.icone img{
+  margin-left: 543px;
+  width: 230px;
+  position: absolute;
+}
 .intro{
     display: flex;
     justify-content: center;
@@ -107,52 +114,13 @@ footer{
     margin: 20px;
     margin-top: 280px; 
 }
-
-
 .sobre-jogo{
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1px 4fr; /* Defina a largura da imagem e do texto */
-    grid-gap: 5px; /* Espaçamento entre a imagem e o texto */
-}
-.sobre-jogo img{
-    position: absolute;
-    width: 600px;
-    margin-left: 268px;
-}
-
-section.img{
-    width: 50%;
-    height: 50%;
+    display: flex;
+    justify-content: baseline;
     
 }
-
-h2{
-    display: flex;
-    justify-content: center;
+.sobre-jogo .txt1 .txt2{
+    margin-right: 100px;
+    font-size: 30px;
 }
-
-.cenarios{
-    display: flex;
-    justify-content: center;
-}
-.cenarios img{
-    width: 300px;
-    margin: 20px;
-    position: fixed;
-    overflow: hidden;
-    transition: .2s;
-    
-}
-.cenarios:hover img{
-    transition: 0.1;
-}
-
-
-
-
-
-
-
-
 

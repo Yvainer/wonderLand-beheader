@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+ 
+body {
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    background: url(img/cavernaMenu\ 1.png)
+}
+ 
+/*INTERAÇÃO COM O MENU DO SITE*/
+nav.menu-lateral {
+    width: 10px;
+    /*210px = aberto 60px = fechado*/
+    height: 100%;
+    background-color: rgba(65, 8, 56, 0.548);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(109, 0, 131);
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+ 
+nav.menu-lateral:hover {
+    /*efeito que mostra o menu inteiro*/
+    width: 200px;
+}
+ 
+ul {
+    height: 50%;
+    list-style-type: none;
+}
+ 
+ul li.item-menu {
+    transition: 1s
+}
+ 
+ 
+ul li.item-menu:hover {
+    background: rgb(159, 0, 173);
+}
+ 
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ 
+ul li.item-menu a .txt-link {
+    margin-left: 20px;
+ 
+}
+ 
+ul li.item-menu a .icon {
+    font-size: 30px;
+}
+ 
+body {
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    background: url(image/Caverna1.png)
+}
+ 
+img {
+    border-radius: 50px;
+    width: 200px;
+}
+ 
+.estilo {
+    background-color: rgba(44, 8, 65, 0.548);
+    border-radius: 10px;
+    padding: 50px;
+}
+ 
+h3 {
+    display: flex;
+    justify-content: center;
+}
+ 
+.max-img {
+    max-height: 500px;
+    max-width: 50px;
+}
+ 
+html,
+body {
+    overflow-x: hidden;
+}
+ 
