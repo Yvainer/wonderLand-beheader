@@ -7,8 +7,8 @@
    
 }
 body{
-    padding: 50px;
-    height: 100vh;
+    /*padding: 50px;*/
+    height: 100vh;  
     margin: 0px;
     background-color: rgba(8, 37, 65, 0.548)  ;
     color: #fff
@@ -147,6 +147,23 @@ h2{
 .cenarios:hover img{
     transition: 0.1;
 }
+.butt{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.button:hover{
+    transition: 0.3s;
+}
+button{
+    width: 100px;
+    background-color: rgba(0, 66, 189, 0.589);
+    color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+    
 
 
 
