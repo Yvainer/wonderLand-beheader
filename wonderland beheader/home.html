@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wonderland Beheader</title>
-    <style>
-    .chuva-container{
-    position: relative;
-    width: 100%;
-    height: 100%;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonderland Beheader</title>
+  <style>
+    .chuva-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
     }
-.gota {
-    position: absolute;
-    bottom: 100%;
-    width: 5px;
-    height: 10px;
-    background-color: rgba(15, 192, 252, 0.678);
-    border-radius: 50%;
-    animation: queda 3s linear infinite;
-}
-@keyframes queda {
-    to {
+
+    .gota {
+      position: absolute;
+      bottom: 100%;
+      width: 5px;
+      height: 10px;
+      background-color: rgba(15, 192, 252, 0.678);
+      border-radius: 50%;
+      animation: queda 3s linear infinite;
+    }
+
+    @keyframes queda {
+      to {
         transform: translateY(100vh);
+      }
     }
-}
-      
-    body{ /*Fundo da primera parte*/
-      background-image: url('image/cavernaMenu.png'); 
+
+    body {
+      /*Fundo da primera parte*/
+      background-image: url('image/cavernaMenu.png');
       background-size: 100%;
       background-position: top;
       background-repeat: no-repeat;
       height: 100vh;
       margin: 0;
-      }
-    </style>
+    }
+  </style>
 
 
 </head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wonderland Beheader</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
 
-  <div class="container">
-     <!-- MENU DO SITE -->
-     <nav class="menu-lateral">
+<body>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland Beheader</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" href="image/relogio.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <!-- MENU DO SITE -->
+    <nav class="menu-lateral">
       <ul>
         <li class="item-menu ativo">
           <a href="home.html">
@@ -60,101 +65,117 @@
             <span class="txt-link">Home</span>
           </a>
         </li>
-
+  
         <li class="item-menu">
           <a href="personagens.html">
             <span class="icon"><i class="bi bi-person-arms-up"></i></span>
             <span class="txt-link">Personagens</span>
           </a>
         </li>
-
+  
+        <li class="item-menu">
+          <a href="histroria.html">
+            <span class="icon"><i class="bi bi-book-half"></i></i></span>
+            <span class="txt-link">História</span>
+          </a>
+        </li>
+  
+  
         <li class="item-menu">
           <a href="devs.html">
             <span class="icon"><i class="bi bi-people"></i></span>
             <span class="txt-link">Devs</span>
           </a>
         </li>
- 
+  
       </ul>
     </nav>
-    
+  
+
+
+    <div class="container mt-4">
       <!-- ANIMAÇÕES DO SITE -->
 
-  <div class="chuva-container">
-      <!-- Gotas são criadas dinamicamente pelo JavaScript -->
-  </div>
-
-
-    <div class="titulo-jogo">
-      <img src="image/titulo-jogo.png" alt="">
-    </div>
-
-    <!-- INFORMAÇÕES SOBRE O JOGO -->
-    <br>
-    <br>
-    <div class="sobre-jogo">
-      <img src="image/alice.png" alt="">
-      <p>Nosso jogo é baseado em franquias de jogos de luta antigos. O universo do jogo é bastante inspirado no tema de Alice no país das Maravilhas, e vários personagens do jogo são inspirados em personagens do conto. O objetivo do jogo é você, que controla a protagonista, destruir o país das maravilhas e se tornar mais forte derrotando os habitantes que querem te impedir.</p>
-    </div>
-
-    <div class="cenarios">
-      <img src="image/Caverna1.png" alt="">
-      <img src="image/Caverna1.png" alt="">
-      <img src="image/Caverna1.png" alt="">
-    </div>
-
-  </div> <!-- fecha container -->
-
-  
-   <!-- Footer Clean and Minimal -->
-<footer class="bg-dark text-light pt-4 mt-5 text-center" >
-  <div class="container2" >
-    <div class="row">
-      <!-- Names Section -->
-      <div class="col-md-3">
-        <h5>Desenvolvidos por</h5>
-        <ul class="list-unstyled">
-          <li>Danilo Bellasques</li>
-          <li>Hellyson Ricardo </li>
-          <li>Vinicius Silva Fernandes Souza</li>
-         
-        </ul>
+      <div class="chuva-container">
+        <!-- Gotas são criadas dinamicamente pelo JavaScript -->
       </div>
-     
-      <!-- Courses Section -->
-      <div class="col-md-3">
-        <h5>Cursos</h5>
-        <ul class="list-unstyled">
-         
-          <li>Técnico em Informática</li>
-        </ul>
-      </div>
-     
-      <!-- Address Section -->
-      <div class="col-md-3">
-        <h5>Endereço</h5>
-        <p>Av. Ramiro Colleoni, 110, Santo André</p>
-      </div>
-    </div>
-   
-    <hr>
-   
-    <div class="row-senac">
-      <div class="col text-center">
-        <p class="mb-0">&copy; 2024 Senac Santo André. Todos os direitos reservados.</p>
-      </div>
-    </div>
-  </div>
-</footer>
 
+      <div class="butt"><button>BAIXAR</button></div>
+      
 
+      <div class="titulo-jogo">
+        <img src="image/titulo-jogo.png" alt="">
+      </div>
 
+      <!-- INFORMAÇÕES SOBRE O JOGO -->
+      <br>
+      <br>
+      <div class="sobre-jogo">
+        <img src="image/alice.png" alt="">
+        <p>Nosso jogo é baseado em franquias de jogos de luta antigos. O universo do jogo é bastante inspirado no tema
+          de Alice no país das Maravilhas, e vários personagens do jogo são inspirados em personagens do conto. O
+          objetivo do jogo é você, que controla a protagonista, destruir o país das maravilhas e se tornar mais forte
+          derrotando os habitantes que querem te impedir.</p>
+      </div>
+
+      <div class="cenarios">
+        <img src="image/Caverna1.png" alt="">
+        <img src="image/Caverna1.png" alt="">
+        <img src="image/Caverna1.png" alt="">
+      </div>
+
+    </div> <!-- fecha container -->
     
-    
-  
-<script src="js/bootstrap.js"></script>
-<script src="js/script.js"></script>
-</body>
-</html>
 
 
+    <!-- Footer Clean and Minimal -->
+
+    <footer class="bg-dark text-light pt-4" >
+      <div class="container">
+        <div class="row">
+          <!-- Names Section -->
+          <div class="col-md-3">
+            <h5>Desenvolvidos por</h5>
+            <ul class="list-unstyled">
+              <li>Danilo Bellasques</li>
+              <li>Hellyson Ricardo </li>
+              <li>Vinicius Silva Fernandes Souza</li>
+
+            </ul>
+          </div>
+
+          <!-- Courses Section -->
+          <div class="col-md-3">
+            <h5>Cursos</h5>
+            <ul class="list-unstyled">
+
+              <li>Técnico em Informática</li>
+            </ul>
+          </div>
+
+          <!-- Address Section -->
+          <div class="col-md-3">
+            <h5>Endereço</h5>
+            <p>Av. Ramiro Colleoni, 110, Santo André</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col text-center">
+            <p class="mb-0">&copy; 2024 Senac Santo André. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
